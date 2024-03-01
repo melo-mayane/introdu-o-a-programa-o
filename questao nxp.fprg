@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 09:35:59 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA3OjM4OjUzICI7MjM2MQ=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA5OjM1OjU5ICI7MTsyNDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F, Ma, Mb, d" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a massa do objeto b&quot;" newline="True"/>
+            <input variable="Mb"/>
+            <output expression="&quot;digite a forca da massa&quot;" newline="True"/>
+            <input variable="F"/>
+            <output expression="&quot;digite a distancia entre as massas&quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="Ma" expression="(d^2)*F /(6.67408*10^(-11)*Mb)"/>
+            <output expression="&quot;a massa do objeto A em gramas  &#233;&quot; &amp;(Ma *1000)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
