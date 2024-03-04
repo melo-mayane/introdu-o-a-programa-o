@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:51:30 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMDQ7IjEyOjI3OjQ5ICI7MTk2MA=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMDQ7IjEyOjUxOjMwICI7NzsyMDYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, divisao" type="Real" array="False" size=""/>
+            <output expression="&quot;insira dois valores inteiros&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <input variable="valor2"/>
+            <assign variable="divisao" expression="valor1/valor2"/>
+            <output expression="&quot;A divis&#227;o entre esses valores &#233;....&quot; &amp;divisao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
