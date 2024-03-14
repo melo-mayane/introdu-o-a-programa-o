@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-14 09:48:27 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTQ7IjA5OjA0OjE5ICI7MTk1OQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTQ7IjA5OjQ4OjI3ICI7MTsyMDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;vamos calcular o volume de uma caixa d&#180;agua?&quot;" newline="True"/>
+            <declare name="raio, volume, altura" type="Real" array="False" size=""/>
+            <output expression="&quot;primeiro digite a altura da caixa&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;depois digite o raio base da caixa&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="volume" expression="3.14*raio^2*altura"/>
+            <output expression="&quot;e agora temos o volume da caixa d`agua &#233;....&quot; &amp;volume * 1000" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
