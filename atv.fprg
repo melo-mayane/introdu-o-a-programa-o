@@ -2,25 +2,19 @@
 <flowgorithm fileversion="3.0">
     <attributes>
         <attribute name="name" value=""/>
-        <attribute name="authors" value="mayan"/>
+        <attribute name="authors" value="Aluno"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-03-04 12:40:57 "/>
-        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMDQ7IjEyOjI3OjQ5ICI7MTk2MA=="/>
-        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMDQ7IjEyOjQwOjU3ICI7MTsyMDYy"/>
+        <attribute name="saved" value="2024-03-15 07:55:53 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA3OjMyOjM4ICI7MjM2Mw=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA3OjU1OjUzICI7MjsyNDc0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="valor1, valor2" type="Integer" array="False" size=""/>
-            <output expression="&quot;insira dois valores&quot;" newline="True"/>
-            <input variable="valor1"/>
-            <input variable="valor2"/>
-            <output expression="&quot;valores escolhidos&quot; &amp;valor1 &amp; valor2" newline="True"/>
-            <declare name="valor3, valor4" type="Integer" array="False" size=""/>
-            <output expression="&quot;continue com proximos valores&quot;" newline="True"/>
-            <input variable="valor3"/>
-            <input variable="valor4"/>
-            <output expression="&quot;novos valores escolhidos...&quot; &amp;valor3  &amp;valor4" newline="True"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="10" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+            </for>
         </body>
     </function>
 </flowgorithm>
