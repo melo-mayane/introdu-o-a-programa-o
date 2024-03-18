@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 09:47:19 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTg7IjA5OjE2OjUxICI7MTk2Mg=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTg7IjA5OjQ3OjE5ICI7MTsyMDc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#916;L = L0.&#945;.&#916;&#952;&#13;&#10;&#13;&#10;Onde,&#13;&#10;&#13;&#10;&#916;L = Varia&#231;&#227;o do comprimento&#13;&#10;L0 = Comprimento inicial&#13;&#10;&#945; = Coeficiente de dilata&#231;&#227;o linear&#13;&#10;&#916;&#952; = Varia&#231;&#227;o de temperatur"/>
+            <declare name="DL, DO, L0, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;comprimento inicial da barra&quot;" newline="True"/>
+            <input variable="L0"/>
+            <output expression="&quot;A varia&#231;&#227;o da temperatura&quot;" newline="True"/>
+            <input variable="DO"/>
+            <assign variable="DL" expression="L0*1.7*10-5*DO"/>
+            <output expression="&quot;a varia&#231;ao do comprimento da barra de cobre &#233;&quot; &amp;DL&amp;&quot;c&#186;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
