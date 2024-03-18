@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 08:49:31 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTQ7IjA5OjA0OjE5ICI7MTk1OQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTg7IjA4OjQ5OjMxICI7MjsyMDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, x1, x2, delta" type="Integer" array="False" size=""/>
+            <output expression="&quot;forne&#231;a um valor para a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;forne&#231;a um valor para b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;forne&#231;a um valor para c&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="(b^2)-4*a*c"/>
+            <assign variable="x1" expression="(-b+sqrt(delta))/2*a"/>
+            <assign variable="x2" expression="(-b-sqrt(delta))/2*a"/>
+            <output expression="&quot;as raizes dessa equa&#231;&#227;o &#233;...&quot; &amp;x1 &amp;&quot;..e..&quot; &amp;x2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
