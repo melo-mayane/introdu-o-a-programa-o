@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 09:10:56 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTg7IjA4OjUxOjA3ICI7MTk2MQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTg7IjA5OjEwOjU2ICI7MTsyMDY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&quot;calculando a &#225;rea de  um triangulo retangulo&quot;"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual o primeiro cateto do triangulo?&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;qual o segundo cateto do triangulo?&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="a" expression="b^2 + c^2"/>
+            <output expression="&quot;A hipotenusa do triangulo retangulo &#233;....&quot; &amp;sqrt(a)" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
