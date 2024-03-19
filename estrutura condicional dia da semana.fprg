@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 01:44:26 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjAxOjM0OjA0ICI7MTk1Mw=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjAxOjQ0OjI2ICI7MTsyMDY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia" type="Integer" array="False" size=""/>
+            <output expression="&quot;que dia da semana &#233; hoje?&quot; &amp;&quot;............................&quot; &amp;&quot;digite um numero correspondente ao dia da semana&quot;" newline="False"/>
+            <input variable="dia"/>
+            <if expression="dia = 1">
+                <then>
+                    <output expression="&quot;hoje &#233; domingo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="dia = 2">
+                        <then>
+                            <output expression="&quot;hoje &#233; segunda&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="dia = 3">
+                                <then>
+                                    <output expression="&quot;hoje &#233; ter&#231;a&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="dia = 4">
+                                        <then>
+                                            <output expression="&quot;hoje &#233; quarta&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="dia = 5">
+                                                <then>
+                                                    <output expression="&quot;hoje &#233; quinta&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="dia = 6">
+                                                        <then>
+                                                            <output expression="&quot;hoje &#233; sexta&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="dia = 7">
+                                                                <then>
+                                                                    <output expression="&quot;hoje &#233; sabado&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
