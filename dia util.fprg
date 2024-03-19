@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 06:31:22 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA2OjIyOjI2ICI7MTk1OQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA2OjMxOjIyICI7MTsyMDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia" type="Integer" array="False" size=""/>
+            <output expression="&quot;escolha um numero entre um e sete que represente os dias da semana para saber se &#233; um dia util ou n&#227;o&quot;" newline="True"/>
+            <input variable="dia"/>
+            <if expression="dia = 1">
+                <then>
+                    <output expression="&quot;domingo n&#227;o &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 2">
+                <then>
+                    <output expression="&quot;segunda &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 3">
+                <then>
+                    <output expression="&quot;ter&#231;a &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 4">
+                <then>
+                    <output expression="&quot;quarta &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 5">
+                <then>
+                    <output expression="&quot;quinta &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 6">
+                <then>
+                    <output expression="&quot;sexta &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia = 7">
+                <then>
+                    <output expression="&quot;sabado n&#227;o &#233; um dia util&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
