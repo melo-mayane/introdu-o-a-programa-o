@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 06:44:04 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA2OjQwOjQ4ICI7MTk2Mw=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA2OjQ0OjA0ICI7MTsyMDY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o valor do seu investimento&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor &gt;= 10.000">
+                <then>
+                    <output expression="&quot;o investimento &#233; alto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o investimento &#233; baixo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
