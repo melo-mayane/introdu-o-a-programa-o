@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 07:59:09 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA3OjM5OjU5ICI7MTk3NA=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA3OjU5OjA5ICI7MTsyMDc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, porcentagem" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um valor de um produto&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor &gt;= 100">
+                <then>
+                    <assign variable="porcentagem" expression="(valor/100)*5"/>
+                    <output expression="&quot;o valor do produto recebeu 5% de imposto....&quot; &amp;porcentagem + valor" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o valor do produto n&#227;o recebe imposto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
