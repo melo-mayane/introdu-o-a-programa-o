@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 08:22:09 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA4OjEwOjQxICI7MTk1NQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMTk7IjA4OjIyOjA5ICI7MTsyMDcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, porcentagem" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o pre&#231;o do produto&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor &lt;= 20">
+                <then>
+                    <assign variable="porcentagem" expression="(valor/100)*40"/>
+                    <output expression="&quot;o lucro da venda deste produto foi....&quot; &amp;valor + porcentagem" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="porcentagem" expression="(valor/100)*30"/>
+                    <output expression="&quot;o lucro deste produto foi....&quot; &amp;valor + porcentagem" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;valor da venda final &#233;.....&quot; &amp;valor+porcentagem + valor+porcentagem" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
