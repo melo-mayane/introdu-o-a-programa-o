@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 11:08:33 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjE7IjEwOjM4OjMxICI7MTk1MA=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjE7IjExOjA4OjMzICI7MTsyMDU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, n2, soma, subtracao, multiplicacao, divisao" type="Integer" array="False" size=""/>
+            <declare name="operacao" type="String" array="False" size=""/>
+            <output expression="&quot;escreva o primeiro numero&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;escreva o segundo numero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;digite a operacao desejada&quot;" newline="True"/>
+            <input variable="operacao"/>
+            <if expression="operacao = &quot;+&quot;">
+                <then>
+                    <assign variable="soma" expression="n + n2"/>
+                    <output expression="&quot;o resultado dessa opera&#231;&#227;o &#233;&quot;  &amp;n&amp;&quot;+&quot;&amp;n2&amp;&quot;=&quot;&amp;soma" newline="True"/>
+                </then>
+                <else>
+                    <if expression="operacao = &quot;-&quot;">
+                        <then>
+                            <assign variable="subtracao" expression="n-n2"/>
+                            <output expression="&quot;o resultado dessa opera&#231;&#227;o &#233;&quot;  &amp;n&amp;&quot;-&quot;&amp;n2&amp;&quot;=&quot;&amp;subtracao" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="operacao = &quot;*&quot;">
+                                <then>
+                                    <assign variable="multiplicacao" expression="n*n2"/>
+                                    <output expression="&quot;o resultado dessa opera&#231;&#227;o &#233;&quot;  &amp;n&amp;&quot;*&quot;&amp;n2&amp;&quot;=&quot;&amp;multiplicacao" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="operacao = &quot;/&quot;">
+                                        <then>
+                                            <assign variable="divisao" expression="n/n2"/>
+                                            <output expression="&quot;o resultado dessa opera&#231;&#227;o &#233;&quot;  &amp;n&amp;&quot;/&quot;&amp;n2&amp;&quot;=&quot;&amp;divisao" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
