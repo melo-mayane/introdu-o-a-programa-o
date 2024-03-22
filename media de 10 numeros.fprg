@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 07:28:00 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA3OjA4OjA1ICI7MTk1NQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA3OjI4OjAwICI7MTsyMDYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, media, soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <declare name="numero" type="Integer" array="False" size=""/>
+                <input variable="numero"/>
+                <assign variable="soma" expression="soma + numero"/>
+            </for>
+            <assign variable="soma" expression="soma + 10"/>
+            <assign variable="media" expression="soma / 10"/>
+            <output expression="&quot;a media dos numeros &#233;&quot;  &amp;soma &amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

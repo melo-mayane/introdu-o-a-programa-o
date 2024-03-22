@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;}
+    ul {
+        font-family:  Arial, Helvetica, sans-serif;
+
+    }
+li{
+    list-style: circle;
+}   
+ .list {
+    list-style: square;
+ } 
+ #msg {
+    font-family: monospace;
+ }
+ .light-theme {
+    color: 000000;
+    background: #00FF00;
+ }
+ <body class="light-theme">
+
+ :root{
+    --green: #00ff00;
+    --white: #ffffff
+    --black: #000000
+ }
+ .light-theme{
+    --bg: var(--green);
+    --fontcolor: var(--black);
+ }
+.dark-theme {
+    --bg: var(--black);
+    --fontcolor: var(--green);
+    *{
+        color: var(--fontcolor);
+        font-family: helvetica;
+    }
+    body {
+        background: var(--bg);
+    }ss
+}
