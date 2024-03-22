@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 08:02:00 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA3OjQ0OjAyICI7MTk1Mg=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjAyOjAwICI7MTsyMDUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sexo" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <assign variable="idade" expression="1"/>
+            <while expression="idade &lt;= 20">
+                <output expression="&quot;digite seu nome&quot;" newline="True"/>
+                <input variable="nome"/>
+                <output expression="&quot;digite sua idade&quot;" newline="True"/>
+                <input variable="idade"/>
+                <output expression="&quot;digite seu sexo (M)OU (F)&quot;" newline="True"/>
+                <input variable="sexo"/>
+                <if expression="sexo == &quot;M&quot; and idade &gt;= 21">
+                    <then>
+                        <output expression="NOME" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
