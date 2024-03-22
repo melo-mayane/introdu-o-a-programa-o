@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 08:15:11 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjExOjQ2ICI7MTk1NQ=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjExOjUzICI7MTttYXlhbjtNQVk7MjAyNC0wMy0yMjsiMDg6MDQ6MzYgIjs0MDc2"/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjE1OjExICI7MTsyMDU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n1, n2, proximo" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="0"/>
+            <assign variable="n2" expression="1"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="proximo" expression="n1 + n2"/>
+                <assign variable="n1" expression="n2"/>
+                <assign variable="n2" expression="proximo"/>
+                <output expression="n1" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
