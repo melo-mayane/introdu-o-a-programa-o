@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 08:24:40 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjE2OjU3ICI7MTk2Mg=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjI0OjQwICI7MTsyMDYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, triangular, numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="triangular" expression="0"/>
+            <while expression="triangular &lt; numero">
+                <assign variable="triangular" expression="i * (i + 1) / 2"/>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <if expression="triangular == numero">
+                <then>
+                    <output expression="&quot;o numero &#233; triangular&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o numero n&#227;o &#233; triangular&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
