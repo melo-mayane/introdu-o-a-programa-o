@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 08:41:17 "/>
+        <attribute name="created" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjMzOjE2ICI7MTk1Ng=="/>
+        <attribute name="edited" value="bWF5YW47TUFZOzIwMjQtMDMtMjI7IjA4OjQxOjE3ICI7MTsyMDY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="salario, renda, inss, sindicato" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual o seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;quanto voce ganha por hora&quot;" newline="True"/>
+            <input variable="salario"/>
+            <assign variable="renda" expression="(salario/100)- 11"/>
+            <assign variable="inss" expression="(salario /100)- 8"/>
+            <assign variable="sindicato" expression="(salario/100)-5"/>
+            <output expression="&quot;o seu salario bruto &#233;&quot; &amp;salario" newline="True"/>
+            <output expression="&quot;seu salario liquido &#233;&quot; &amp;renda +inss + sindicato" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
