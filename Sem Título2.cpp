@@ -1,25 +1,16 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    int N[20];
+	int dados[] = {-1, 0, 5, 34, -23, 31, -17};
+	int soma = 0;
+	
+	for (int i = 0; i < 7; i++)
+	    soma = soma + dados[i];
+	    
+	cout<<"a media e:"<< soma/7 <<endl;
 
-    // Leitura dos 20 valores inteiros
-    for (int i = 0; i < 20; i++) {
-        cin >> N[i];
-    }
+return 0;	    
+} 
 
-    // Troca dos elementos
-    for (int i = 0; i < 10; i++) {
-        int temp = N[i];
-        N[i] = N[19 - i];
-        N[19 - i] = temp;
-    }
-
-    // Impressão do vetor modificado
-    for (int i = 0; i < 20; i++) {
-        cout << "N[" << i << "] = " << N[i] << endl;
-    }
-
-    return 0;
-}

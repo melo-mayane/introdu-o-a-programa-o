@@ -1,21 +1,19 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
-    int A, B;
-
-    // Leitura dos valores
-    cout << "Digite o valor de A: ";
-    cin >> A;
-    cout << "Digite o valor de B: ";
-    cin >> B;
-
-    // Verificação se são múltiplos
-    if (A % B == 0 || B % A == 0) {
-        cout << "Sao Multiplos" << endl;
-    } else {
-        cout << "Nao sao Multiplos" << endl;
-    }
-
-    return 0;
+int main () {
+	int dados[] = {-1, 0, 5, 34, -23, 31, -17};
+	for (int i = 0; i < 7; i++) 
+		cout << dados[i]<< endl;
+		
+	for (int i = 0; i < 7; i++) 
+		if (dados[i] <0)
+		    dados[i] = 0;
+		
+	for (int i = 0; i < 7; i++) 
+		cout << dados[i]<< endl;		
+		
+	cout<<"teste";
+return 0;
 }
